@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Games</title>
-    <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style.css" media="screen" type="text/css">
-    <link rel="icon" type="image/png" href="img/1up.png">
+  <meta charset="utf-8">
+  <title>Mega Sega</title>
+  <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style.css" media="screen" type="text/css">
+  <link rel="icon" type="image/png" href="img/1up.png">
 </head>
 <body>
+<div id="video_cover">                                   <!-- Background Video -->
+  <video src="vid/BnW.mp4" autoplay loop></video>
+</div>
 <nav id="customNavbar" class="navbar navbar-fixed-top">  <!-- NavBar -->
   <div class="container">
     <div class="navbar-header">
@@ -24,8 +27,10 @@
     <div id="navbar" class="navbar-collapse collapse"> <!-- normal Navbar-->
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#a">Top Rated Games</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#latest">Latest Reviews</a></li>
+        <li><a href="#thumbGallery">Upcoming Games</a></li>
+        <li><a href="#ourGamesDiv">Hot Games</a></li>
+        <li><a href="#gameOfYear">Game Of the Year</a></li>
       </ul>
     </div>
   </div>
@@ -34,239 +39,6 @@
   <h1>Mega Sega Games</h1>
   <p id="official">Official Site of the Infamous Mega Sega Team</p>
 </div>
-
-<div id="year" class="container">
-
-<div id="myndt" class="row container">
-
-
-      <div class=" container">
-          <div class="row col-md-12 col-xs-12 col-lg-12">
-
-
-                  <h1>Game of The year</h1>
-
-          </div>
-
-          <div id="imgh" class="row">
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2015</h4>
-                  <img class="img-responsive  col-md-12 col-xs-12 col-lg-12" src="Myndir\Fallout.jpg" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                      <a class="col-md-12 col-xs-12 col-lg-12" href="https://fallout4.com/">Fallout.4</a>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2014</h4>
-                  <img class="img-responsive  col-md-12 col-xs-12 col-lg-12" src="Myndir\destiny.jpg" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                      <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.destinythegame.com">Destiny</a>
-                  </div>
-                </div>
-
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2013</h4>
-                  <img class="img-responsive  col-md-6 col-xs-12 col-lg-12" src="Myndir\thelast2.jpg" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                      <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.thelastofus.playstation.com/index.html">The.Last.Of.Us</a>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2012</h4>
-                  <img class="img-responsive  col-md-12 col-xs-12 col-lg-12" src="Myndir\dish.jpg" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                    <a class="col-md-12 col-xs-12 col-lg-12" href="https://dishonored.bethesda.net/">Dishonored</a>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2011</h4>
-                  <img class="img-responsive  col-md-12 col-xs-6 col-lg-12" src="Myndir\portal.jpg" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                    <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.thinkwithportals.com/about.php">Portal.2</a>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-2 col-xs-6 col-lg-2">
-                    <h4>2010</h4>
-                  <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\MassEffect2.png" alt="">
-                  <div class="col-md-6 col-xs-12 col-lg-2">
-                    <a class="col-md-12 col-xs-12 col-lg-12" href="http://masseffect.wikia.com/wiki/Mass_Effect_2">Mass.Effect.2</a>
-                  </div>
-
-
-              </div>
-          </div>
-
-      </div>
-  </div>
-  <div class="front">
-          <div class="container">
-              <div class="row container">
-
-                  <h1> What Game Will Get Crowned Game Of The Year 2016!</h1>
-              </div>
-
-              <div id="imgh2" class="row">
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\Battlefield.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://Battlefield.com/">Battlefield.1</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\happy.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="http://compulsiongames.com/en/10/we-happy-few">We.Happy.Few</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\s.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.seaofthieves.com/">Sea.of.Thieves</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\d.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://en.wikipedia.org/wiki/Detroit:_Become_Human">Detroit</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\a.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.abzugame.com/">Abzu</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\M.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.Titanfall.com">Titanfall.2 </a>
-                      </div>
-                  </div>
-              </div>
-
-
-              <div id="imgh2" class="row">
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\dawn.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.dawnofwar.com/">Dawn.Of.War.III</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\Civilization.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.Civilization.com">Civilization.VI</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\ze.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-wii-u">The.Legend.Of.Zelda</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\TheLastGuardian.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.playstation.com/en-us/games/the-last-guardian-ps4/">The.Last.Guardian</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\HorizonZeroDawn.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/">Horizon.Zero.Dawn</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\dish2.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://dishonored.bethesda.net/">Dishonored.2</a>
-                      </div>
-
-                  </div>
-              </div>
-
-
-              <div id="imgh2" class="row">
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\fo.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.xbox.com/en-US/games/forza-horizon-3">Forza.Horizon.3</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\h.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.halowaypoint.com/en-us/games/halo-wars-2">Halo.Wars.2</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\f.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.easports.com/fifa/the-journey">FIFA.17</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\t.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-md-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.tk7.tekken.com/">Tekken.7</a>
-                      </div>
-                  </div>
-
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\g.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="http://www.xbox.com/en-US/games/gears-of-war-4">Gears.of.War.4</a>
-                      </div>
-                  </div>
-                  <div class="col-md-2 col-xs-6 col-lg-2">
-                      <img class="img-responsive col-md-12 col-xs-12 col-lg-12" src="Myndir\ca.jpg" alt="">
-                      <div class="col-md-2 col-xs-6 col-lg-2">
-                          <a class="col-md-12 col-xs-12 col-lg-12" href="https://www.callofduty.com/infinitewarfare">Call.of.Duty: Infinite Warfare</a>
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="row container">
-
-                  <h1>Tell Us Who You think will win.</h1>
-              </div>
-              <div class="row">
-                  <form class="container">
-
-                      <textarea rows="9" name="comment" id="comment" placeholder="Comment"class="col-md-10 col-xs-10 col-lg-10">
-
-                      </textarea>
-
-                      <input type="submit" value="Submit" class="btn" />
-                  </form>
-              </div>
-
-
-          </div>
-      </div>
-    </div>
-
-
 <div id="thumbGallery" class="container">                <!-- Gallery 2017 -->
   <div class="row">
     <div class="col-lg-12">
@@ -359,7 +131,7 @@
         </div>
       </div>
     </div>
-    <h1 class="page-header"></h1>
+    <h1 id="stayTuned" class="page-header">Stay tuned!</h1>
   </div>
 </div>
 <div id="latest" class="container">                      <!-- Latest Reviews Carousel and table-->
@@ -396,7 +168,7 @@
       </a>
     </div>
   </div>
-  <div class="col-md-6">                      <!-- Latest Reviews Table -->
+  <div class="col-md-6">                                 <!-- Latest Reviews Table -->
     <div>
       <table class="table-bordered">
         <thead>
@@ -429,12 +201,11 @@
           </tr>
         </tbody>
       </table>
-
     </div>
   </div>
 </div>
 <div id="scrollSection" class="container">               <!-- ScrollSpy -->
-  <h1>We Develop Games for the Following Consoles</h1>
+  <h1>We Distribute Games for the Following Consoles</h1>
   <ul class="nav nav-tabs">
     <li><a href="#section1">PS 4</a></li>
     <li><a href="#section2">XBox 360</a></li>
@@ -443,16 +214,19 @@
   <div>
     <div id="scrollContent" data-spy="scroll">
       <section id="section1" class="page">
+        <h3>Playstation 4</h3>
         <img src="img/consoles/ps4.jpg" alt="image of Playstation 4" />
-        <h1>PlayStation 4 is the fourth home video game console produced by Sony Computer Entertainment and the successor to the PlayStation 3. It was officially announced at a press conference on February 20, 2013 and launched on November 15 2013.</h1>
+        <p>PlayStation 4 is the fourth home video game console produced by Sony Computer Entertainment and the successor to the PlayStation 3. It was officially announced at a press conference on February 20, 2013 and launched on November 15 2013.</p>
       </section>
       <section id="section2" class="page">
+        <h3>Xbox 360</h3>
         <img src="img/consoles/xbox.jpg" alt="image of X Box 360" />
-        <h1>The Xbox 360 is the second video game console released by Microsoft, after 2001's Xbox. The Xbox 360 was officially revealed on MTV on May 12, 2005.</h1>
+        <p>The Xbox 360 is the second video game console released by Microsoft, after 2001's Xbox. The Xbox 360 was officially revealed on MTV on May 12, 2005.</p>
       </section>
       <section id="section3" class="page">
+        <h3>Nintendo Wii</h3>
         <img src="img/consoles/wii.jpg" alt="image of Nintendo Wii" />
-        <h1>The Wii (pronounced "we") is a video game console made by Nintendo. It first came out on November 19, 2006, in North America. It plays video games made for the Wii and the Nintendo GameCube. It was succeeded by the Wii U in 2012.</h1>
+        <p>The Wii (pronounced "we") is a video game console made by Nintendo. It first came out on November 19, 2006, in North America. It plays video games made for the Wii and the Nintendo GameCube. It was succeeded by the Wii U in 2012.</p>
       </section>
     </div>
   </div>
@@ -462,61 +236,176 @@
 	<div class="container">
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover1.jpg" />
-        <h2>Came Out in 1993 and has sold in 2 billion copies</h2>
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover1.jpg" data-other-src="img/gameCovers/gameCover1inv.jpg" alt="image of Half-Life" />
+        <h2 class="subText">Came Out in 1993 and has sold in 2 billion copies</h2>
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover2.jpg" />
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover2.jpg" data-other-src="img/gameCovers/gameCover2inv.jpg" alt="image of Aweso"/>
         <h2>The most awaited game in history.. has not been released yet</h2>
       </div>
     </div>
     <div class="clearfix visible-sm"></div>
   	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover3.jpg" />
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover3.jpg" data-other-src="img/gameCovers/gameCover3inv.jpg"  alt="image of Dune II"/>
         <h2>A classic! Makes much more sense than the movie!</h2>
       </div>
     </div>
     <div class="clearfix visible-lg visible-md"></div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover4.jpg" />
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover4.jpg" data-other-src="img/gameCovers/gameCover4inv.jpg" alt="image of Dead Space"/>
         <h2>The game everybody talked about but only a few played..</h2>
       </div>
     </div>
     <div class="clearfix visible-sm"></div>
 	  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover5.jpg" />
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover5.jpg" data-other-src="img/gameCovers/gameCover5inv.jpg" alt="image of Scource"/>
         <h2>Five Awards on "Gunthers Video Game awards" in Helsinki 1993</h2>
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="height">
-        <img class="ourGames img-rounded" src="img/gameCovers/gameCover6.jpg" />
+        <img class="ourGames img-rounded" src="img/gameCovers/gameCover6.jpg" data-other-src="img/gameCovers/gameCover6inv.jpg" alt="image of Doom"/>
         <h2>Everybody whos somebody knows Doom</h2>
       </div>
     </div>
   </div>
 </div>
-<div class="footer">                                     <!-- Footer -->
-  <h2>Made By Davíð Már Gunnarsson - NTV - 2016</h2>
+<div id="gameOfYear" class="container">                  <!-- Game Of the Year 2016 -->
+    <div class="row">
+      <h1>Game of The year</h1>
+    </div>
+    <div class="container">
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2015</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/Fallout.jpg" alt="img">
+        <a href="https://fallout4.com/">Fallout 4</a>
+      </div>
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2014</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/destiny.jpg" alt="img">
+        <a href="https://www.destinythegame.com">Destiny</a>
+      </div>
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2013</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/thelast2.jpg" alt="img">
+        <a href="http://www.thelastofus.playstation.com/index.html">The Last Of Us</a>
+      </div>
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2012</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/dish.jpg" alt="img">
+        <a href="https://dishonored.bethesda.net/">Dishonored</a>
+      </div>
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2011</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/portal.jpg" alt="img">
+        <a href="http://www.thinkwithportals.com/about.php">Portal 2</a>
+      </div>
+      <div class="col-md-2 col-xs-6 col-lg-2">
+        <h2>2010</h2>
+        <img class="imgSize img-responsive" src="img/gameOfYear/MassEffect2.png" alt="img">
+        <a href="http://masseffect.wikia.com/wiki/Mass_Effect_2">Mass Effect 2</a>
+      </div>
+    </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="javascript.js" charset="utf-8"></script>
+<div id="nextYear" class="container">                    <!-- Game Of the Year 2017 -->
+  <div class="row container">
+    <h1> What Game Will Get Crowned Game Of The Year 2016!</h1>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/Battlefield.jpg" alt="img">
+    <a href="https://Battlefield.com/">Battlefield 1</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/happy.jpg" alt="img">
+    <a href="http://compulsiongames.com/en/10/we-happy-few">We Happy Few</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/s.jpg" alt="img">
+    <a href="https://www.seaofthieves.com/">Sea of Thieves</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/d.jpg" alt="img">
+    <a href="https://en.wikipedia.org/wiki/Detroit:_Become_Human">Detroit</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/a.jpg" alt="img">
+    <a href="http://www.abzugame.com/">Abzu</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/M.jpg" alt="img">
+    <a href="http://www.Titanfall.com">Titanfall 2</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/dawn.jpg" alt="img">
+    <a href="https://www.dawnofwar.com/">Dawn Of War III</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/Civilization.jpg" alt="img">
+    <a href="https://www.Civilization.com">Civilization VI</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/ze.jpg" alt="">
+    <a href="http://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-wii-u">The Legend Of Zelda</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/TheLastGuardian.jpg" alt="img">
+    <a href="https://www.playstation.com/en-us/games/the-last-guardian-ps4/">The Last Guardian</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/HorizonZeroDawn.jpg" alt="img">
+    <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/">Horizon Zero Dawn</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/dish2.jpg" alt="img">
+    <a href="https://dishonored.bethesda.net/">Dishonored 2</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/fo.jpg" alt="img">
+    <a href="https://www.xbox.com/en-US/games/forza-horizon-3">Forza Horizon 3</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/h.jpg" alt="img">
+    <a href="https://www.halowaypoint.com/en-us/games/halo-wars-2">Halo Wars 2</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/f.jpg" alt="img">
+    <a href="https://www.easports.com/fifa/the-journey">FIFA 17</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/t.jpg" alt="img">
+    <a href="https://www.tk7.tekken.com/">Tekken 7</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/g.jpg" alt="img">
+    <a href="http://www.xbox.com/en-US/games/gears-of-war-4">Gears of War 4</a>
+  </div>
+  <div class="col-md-4 col-xs-6 col-lg-4">
+    <img class="imgSize img-responsive" src="img/gameOfYear/ca.jpg" alt="img">
+    <a href="https://www.callofduty.com/infinitewarfare">Call of Duty: Infinite Warfare</a>
+  </div>
+  <div class="clearfix visible-xm"></div>
+  <div class="container">
+    <div class="row">
+      <h1>Tell Us Who You think will win.</h1>
+    </div>
+    <div class="container">
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+        <textarea class="form-control" rows="2" name="comment" id="comment" placeholder="Comment"></textarea>
+      </div>
+      <input type="submit" value="Submit" class="btn btn-default" />
+    </div>
+  </div>
+</div>
+<div id="footer" class="footer">                         <!-- Footer -->
+  <h2>Kolbeinn - NTV - 2016</h2>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="javascript.js" charset="utf-8"></script>
 </body>
-
 </html>

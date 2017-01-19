@@ -7,6 +7,16 @@ body {
   overflow-x: hidden;
   position: relative;
  }
+ /*---------------------------------------------------------------BackGround Video------------*/
+ #video_cover {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background: no-repeat;
+   background-size: cover;
+   background-position: center;
+   z-index: -1;
+ }
  /* -----------------------------------------------------------------      Navbar   ------------------ */
 #customNavbar {
   background-color: rgba(0, 0, 0, 0.3);
@@ -19,9 +29,8 @@ body {
 }
 ul.nav a:hover { color: black !important;}
 /* ---------------------------------------------------------------       Banner  ----------------   */
-.jumbotron { background-size: auto 100% !important; background-color: black; }
+.jumbotron { background-size: auto 100% !important; background-color: transparent; }
 #banner {
-  background-image: url("img/gameControllers2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   color: white;
@@ -31,15 +40,17 @@ ul.nav a:hover { color: black !important;}
 }
 #banner * {
   font-family: 'Ruslan Display', cursive;
+  font-size: 35px;
+}
+#banner h1 {
+  font-size: 110px;
 }
 @media (max-width: 775px)
 {
-    #official
-    {
-        display: none;
-    }
+    #official{display: none;}
+    .jumbotron{background-image: url("img/gameControllers2.jpg");}
+    #banner h1 {font-size: 55px;}
 }
-
 /* ----------------------------------------------------   Scheduled for Release 2017  ----------------   */
 .height {
   display: table;
@@ -66,6 +77,9 @@ ul.nav a:hover { color: black !important;}
 }
 .imgtooltip:hover + div, .imgtooltip + div:hover {
   display: block;
+}
+#stayTuned {
+  margin-top: -30px;
 }
 /* -------------------------------------------------    Latest Reviews Carousel and Table ----------------    */
 #latest {
@@ -119,8 +133,9 @@ ul.nav a:hover { color: black !important;}
   height: 70%;
  }
  /* ----------------------------------------------------------  ScrollSpy ----------------   */
- #scrollSection h1 {
+ #scrollSection p {
    text-align: center;
+   font-size: 30px;
  }
  .nav-tabs {
    font-size: 25px;
@@ -135,7 +150,7 @@ ul.nav a:hover { color: black !important;}
  }
  @media (max-width: 775px)
  {
-     #scrollContent h1 {
+     #scrollContent p {
        font-size: 25px;
      }
      #scrollContent img {
@@ -183,6 +198,30 @@ ul.nav a:hover { color: black !important;}
  .ourGames:hover + h2, .ourGames + h2:hover {
    display: block;
  }
+/*------------------------------------------------------------- Game Of The Year -------------*/
+.imgSize {
+  width: 100%;
+  height: 210px;
+}
+h1 {
+  text-align: center;
+}
+#gameOfYear a {
+  font-size: 25px;
+  color: white;
+}
+#gameOfYear * h2 {
+  text-align: center;
+}
+#nextYear {
+  border: solid 5px white;
+  margin-top: 75px;
+  padding-bottom: 50px;
+}
+#nextYear a {
+  font-size: 20px;
+  color: white;
+}
 /*---------------------------------------------------------------- Footer ------------------ */
 
 .footer {
@@ -198,34 +237,4 @@ ul.nav a:hover { color: black !important;}
   color: white;
   text-align: center;
   vertical-align: middle;
-}
-
-#imgh img{
-
-  width: 150px;
-  height: 150px;
-
-}
-
-#imgh2 img{
-
-  width: 150;
-  height: 100px;
-  padding-right: 30px
-
-}
-
-#year{
-
-border: 5px solid gray;
-
-
-}
-
-
-
-
-
-/*{
-  border: 1px red solid;
 }
